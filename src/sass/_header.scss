@@ -1,0 +1,41 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index:999;
+  .nav-item-divider {
+    display: block;
+   	.nav-link > span {
+      border-left: 3px solid #fff;
+    }
+  }
+}
+.navbar .nav-item {
+	.active {
+	border-bottom:2px solid #fff;
+	}
+	a {
+	font-size:1.28em;
+	color:#fff !important;
+	margin-right:1.4em;
+	padding:0 !important;
+		&:hover {
+		border-bottom:2px solid #fff;
+		}
+	} 
+}
+.login {
+	position:relative;
+	margin-left:1.3em;
+	&:before {
+		border-left:2px solid #fff;
+		content:'';
+		margin-left:-1.3em;
+		position: absolute;
+		left: 0;
+		height: 100%;
+		top: 0;
+		}
+}
+.sign-up {
+	margin-top:-.4em;
+}

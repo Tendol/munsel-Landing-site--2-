@@ -1,0 +1,49 @@
+// ALL variable here
+
+// Site main color 
+$primary__color: #F44336;  
+$secondary__color: #F5F5F5;
+$muted__color:#9B9B9B;
+$maintext__color: #434343;
+$headingtext__color: #000;
+
+//spacer for section spacing
+$spacer: 25px;
+
+// FONTS HERE
+$heading__font: 'CircularStd-Bold';
+$main__font: 'PT-sans';
+$heading__font_medium: 'CircularStd-Medium';
+
+// FONTS HERE
+@font-face{
+	src: url(../fonts/CircularStd-Black.woff);
+	font-family: 'CircularStd-Black';
+	font-style: normal;
+  	font-weight: 400;
+}
+@font-face{
+	src: url(../fonts/CircularStd-Book.woff);
+	font-family: 'CircularStd-Book';
+	font-style: normal;
+  	font-weight: 400;
+}
+@font-face{
+	src: url(../fonts/CircularStd-Medium.woff);
+	font-family: 'CircularStd-Medium';
+	font-style: normal;
+  	font-weight: 400;
+}
+@font-face{
+	src: url(../fonts/CircularStd-Bold.woff);
+	font-family: 'CircularStd-Bold';
+	font-style: normal;
+  	font-weight: bold;
+}
+@font-face{
+	src: url(../fonts/PTC55F.ttf);
+	font-family: 'PT-sans';
+	font-style: normal;
+  	font-weight: 400;
+}
+

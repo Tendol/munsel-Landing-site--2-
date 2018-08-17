@@ -1,0 +1,42 @@
+.site-footer {
+	.footer-nav li {
+		font-size:1.38em;
+		margin-bottom:.4em;
+	}
+	h2 {
+		margin-bottom:1.1em;
+	}
+	.footer-form .form-control{
+		font-size: .8em;
+		padding: 1em 1.4em;
+		border:1px solid #eee;
+		box-shadow:0 1px 3px rgba(0,0,0,0.1);
+	}
+	.btn-social {
+		font-size:.8em;
+		border-radius:0;
+		color:#fff;
+		padding:.5rem 1rem;
+	}
+	.btn-facebook {
+		background-color:#3A589E;
+		&:hover {
+			background-color: darken(#3A589E, 15% );
+		}
+	}
+	.btn-instagram {
+		background-color:#478FCB;
+		&:hover {
+			background-color: darken(#478FCB, 15% );
+		}
+	}
+	.btn-youtube {
+		background-color:#FF0000;
+		&:hover {
+			background-color: darken(#FF0000, 15% );
+		}
+	}
+	hr {
+		border-top: 1px solid rgba(0, 0, 0, .5);
+	}
+}
