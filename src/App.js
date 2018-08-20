@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './css/bootstrap.4.1.1.min.css';
 import './css/style.css';
-import {Router, Switch, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 class App extends Component {
    render() {
